@@ -1,0 +1,57 @@
+﻿
+@{
+    ViewBag.Title = "TransExito";
+    string saldo = ViewBag.saldo;
+    string codigo = ViewBag.codigo;
+    string nombre = ViewBag.nombre;
+    string cuenta = ViewBag.cuenta;
+}
+<div class="row">
+    <div class="col-lg-3 col-md-6">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <div class="row">
+                    <div class="col-xs-9 text-right">
+                        <div>Cuenta</div>
+                        <div>@cuenta</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-6">
+        <div class="panel panel-green">
+            <div class="panel-heading">
+                <div class="row">
+                    <div class="col-xs-9 text-right">
+                        <div>Nombre</div>
+                        <div>@nombre</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-6">
+        <div class="panel panel-yellow">
+            <div class="panel-heading">
+                <div class="row">
+                    <div class="col-xs-9 text-right">
+                        <div>Código</div>
+                        <div>@codigo</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <h2>Se ha completado su Transferencia </h2>
+</div>
+<div class="row">
+    <div class="form-group">
+        <div class="col-md-offset-1 col-md-10" align="center">
+            <a href="@Url.Action("Index", "Usuario")" class="btn btn-lg btn-danger btn-group">Aceptar</a>
+        </div>
+    </div>
+</div>
+

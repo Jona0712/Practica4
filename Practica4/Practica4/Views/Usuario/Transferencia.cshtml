@@ -1,0 +1,103 @@
+﻿@using Practica4.Models
+@model Transferencia
+@{
+    ViewBag.Title = "Transferencia";
+    string saldo = ViewBag.saldo;
+    string codigo = ViewBag.codigo;
+    string nombre = ViewBag.nombre;
+    string cuenta = ViewBag.cuenta;
+    string msg = ViewBag.msg;
+}
+<div class="row">
+    <div class="col-lg-3 col-md-6">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <div class="row">
+                    <div class="col-xs-9 text-right">
+                        <div>Cuenta</div>
+                        <div>@cuenta</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-6">
+        <div class="panel panel-green">
+            <div class="panel-heading">
+                <div class="row">
+                    <div class="col-xs-9 text-right">
+                        <div>Nombre</div>
+                        <div>@nombre</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-6">
+        <div class="panel panel-yellow">
+            <div class="panel-heading">
+                <div class="row">
+                    <div class="col-xs-9 text-right">
+                        <div>Código</div>
+                        <div>@codigo</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <h2>Bienvenido @nombre</h2>
+</div>
+<hr />
+<h2>Transferencia</h2>
+<h4>Su Saldo en la cuenta es: @saldo</h4>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 col-md-offset-4">
+            <div class="panel-body">
+                <div class="row">
+                    @if (msg == "SF")
+                    {
+                        <h4 class="alert-danger">NO TIENE SUFICIENTES FONDOS</h4>
+                    }
+                    else if (msg == "CI")
+                    {
+                        <h4 class="alert-danger">CUENTA DESTINO NO EXISTE!</h4>
+                    }
+                </div>
+                @using (Html.BeginForm())
+                {
+                    @Html.AntiForgeryToken()
+                    <hr />
+                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                    <fieldset>
+                        <div class="form-group">    
+                            <!--<h4>Cuenta:  <input type="text" name="c1" id="c1" value="@cuenta" readonly  /></h4>-->
+                            <h4>Cuenta:  @Html.EditorFor(model => model.cuenta1, new { htmlAttributes = new { @class = "form-control", @Value = cuenta,  @readonly="readonly" } })</h4>
+                        </div>
+                        <div class="form-group">
+                            <h4>Cuenta a Transferir : @Html.EditorFor(model => model.cuenta2, new { htmlAttributes = new { @class = "form-control" } })</h4>
+                        </div>
+                        <div class="form-group">
+                            <h4>Monto: @Html.EditorFor(model => model.monto, new { htmlAttributes = new { @class = "form-control" } })</h4>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-offset-1 col-md-10">
+                                <input type="submit" value="Transferencia" class="btn btn-lg btn-success btn-block" />
+                            </div>
+                        </div>
+                        <hr />
+                        <div class="form-group">
+                            <div class="col-md-offset-1 col-md-10">
+                                <a href="@Url.Action("Index", "Usuario")" class="btn btn-lg btn-info btn-block">Regresar</a>
+                            </div>
+                        </div>
+                        <hr />
+                    </fieldset>
+                }
+            </div>
+        </div>
+    </div>
+</div>

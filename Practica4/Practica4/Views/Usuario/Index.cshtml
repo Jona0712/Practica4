@@ -1,0 +1,79 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    string nombre = ViewBag.nombre;
+    string codigo = ViewBag.codigo;
+    string cuenta = ViewBag.cuenta;
+}
+
+<div class="row">
+    <div class="col-lg-3 col-md-6">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <div class="row">
+                    <div class="col-xs-9 text-right">
+                        <div>Cuenta</div>
+                        <div>@cuenta</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-6">
+        <div class="panel panel-green">
+            <div class="panel-heading">
+                <div class="row">
+                    <div class="col-xs-9 text-right">
+                        <div>Nombre</div>
+                        <div>@nombre</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-6">
+        <div class="panel panel-yellow">
+            <div class="panel-heading">
+                <div class="row">
+                    <div class="col-xs-9 text-right">
+                        <div>Código</div>
+                        <div>@codigo</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <h2>Bienvenido @nombre</h2>
+</div>
+<hr />
+<div class="row">
+    <div class="col-lg-3 col-md-6">
+        <div class="panel panel-info">
+            <a href="@Url.Action("Consultar", "Usuario")" class="btn btn-lg btn-info btn-block btn-outline">
+                <h4>
+                    Consultar Saldo
+                </h4>
+            </a>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-6">
+        <div class="panel panel-red">
+            <a href="@Url.Action("Create", "Credito")" class="btn btn-lg btn-danger btn-block btn-outline">
+                <h4>
+                    Solicitar Crédito
+                </h4>
+            </a>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-6">
+        <div class="panel panel-default">
+            <a href="@Url.Action("Transferencia", "Usuario")" class="btn btn-lg btn-default btn-block btn-outline">
+                <h4>
+                    Hacer Transferencia
+                </h4>
+            </a>
+        </div>
+    </div>
+</div>
