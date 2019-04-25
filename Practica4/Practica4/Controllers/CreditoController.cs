@@ -7,12 +7,12 @@ using System.Web.Mvc;
 
 namespace Practica4.Controllers
 {
-    public class CreditoController:Controller
-	{
-       string a;
-	   private banco_practica_4Entities db = new banco_practica_4Entities();
-	   
-	     //
+    public class CreditoController : Controller
+    {
+        string a;
+        private banco_practica_4Entities db = new banco_practica_4Entities();
+
+        //
         // GET: /credito/
 
         public ActionResult Index()
@@ -67,6 +67,19 @@ namespace Practica4.Controllers
                     db.Entry(cuentica).State = EntityState.Modified;
                     db.Entry(credi).State = EntityState.Modified;
                     db.SaveChanges();
+
+                    MovimientoController mc = new MovimientoController();
+                    movimiento movi = new movimiento();
+                    movi.Monto = credi.Monto;
+                    movi.mov = "C";
+                    movi.fecha = DateTime.Now;
+                    movi.cuentaUno = cuentica.Numero;
+                    movi.cuentaDos = null;
+
+                    if (mc.Create(movi))
+                    {
+                        return RedirectToAction("Index");
+                    }
                 }
                 else
                 {
@@ -174,5 +187,5 @@ namespace Practica4.Controllers
             db.Dispose();
             base.Dispose(disposing);
         }
-	}
+    }
 }

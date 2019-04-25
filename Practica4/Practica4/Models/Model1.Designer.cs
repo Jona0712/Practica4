@@ -1,4 +1,4 @@
-﻿// T4 code generation is enabled for model 'C:\Users\rafael\Desktop\Practica4\Practica4\Models\ModelEntity.edmx'. 
+﻿// T4 code generation is enabled for model 'c:\users\rafael\documents\visual studio 2015\Projects\Practica4\Practica4\Models\Model1.edmx'. 
 // To enable legacy code generation, change the value of the 'Code Generation Strategy' designer
 // property to 'Legacy ObjectContext'. This property is available in the Properties Window when the model
 // is open in the designer.

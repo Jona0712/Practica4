@@ -28,6 +28,7 @@ namespace Practica4.Models
         public virtual DbSet<credito> credito { get; set; }
         public virtual DbSet<cuenta> cuenta { get; set; }
         public virtual DbSet<debito> debito { get; set; }
+        public virtual DbSet<movimiento> movimiento { get; set; }
         public virtual DbSet<rol> rol { get; set; }
         public virtual DbSet<usuario> usuario { get; set; }
     }

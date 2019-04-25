@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
@@ -7,9 +8,9 @@ using Practica4.Models;
 
 namespace Practica4.Controllers
 {
-    public class UsuarioController:Controller
-	{
-	   private banco_practica_4Entities db = new banco_practica_4Entities();
+    public class UsuarioController : Controller
+    {
+        private banco_practica_4Entities db = new banco_practica_4Entities();
 
         public ActionResult AdminInd()
         {
@@ -57,6 +58,24 @@ namespace Practica4.Controllers
                         db.Entry(c).State = EntityState.Modified;
                         db.Entry(saldo).State = EntityState.Modified;
                         db.SaveChanges();
+
+                        MovimientoController mc = new MovimientoController();
+                        movimiento movi = new movimiento();
+                        movimiento m2 = new movimiento();
+                        movi.Monto = model.monto;
+                        movi.mov = "T";
+                        movi.fecha = DateTime.Now;
+                        movi.cuentaUno = model.cuenta1;
+                        movi.cuentaDos = model.cuenta2;
+                        m2.Monto = model.monto;
+                        m2.mov = "R";
+                        m2.fecha = DateTime.Now;
+                        m2.cuentaUno = model.cuenta2;
+                        m2.cuentaDos = model.cuenta1;
+
+                        mc.Create(movi);
+                        mc.Create(m2);
+
                         return RedirectToAction("TransExito");
                     }
                     else
@@ -217,8 +236,21 @@ namespace Practica4.Controllers
                 cuenti.Saldo = 1000;
                 int codi = db.usuario.Where(i => i.usua == usuario.usua).First().codigo;
                 cuenti.usua = codi;
-                if (cuenCon.Create(cuenti))
-                {
+                MovimientoController mcc = new MovimientoController();
+                movimiento movi = new movimiento();
+
+                if (cuenCon.Create(cuenti)) { 
+                    
+                    movi.Monto = 1000;
+                    movi.mov = "I";
+                    movi.fecha = DateTime.Now;
+
+                    usuario usu = db.usuario.Find(codi);
+                    movi.cuentaUno = db.cuenta.Where(i => i.usua == usu.codigo).First().Numero;
+                    movi.cuentaDos = null;
+
+                    mcc.Create(movi);
+
                     return RedirectToAction("Info", new { codigo = codi });
                 }
             }
@@ -327,7 +359,7 @@ namespace Practica4.Controllers
             List<debito> deb = db.debito.Where(a => a.cuenta == cuen.Numero).ToList();
             List<credito> cre = db.credito.Where(r => r.cuenta == cuen.Numero).ToList();
 
-            if(deb != null)
+            if (deb != null)
             {
                 foreach (var item in deb)
                 {
@@ -353,5 +385,5 @@ namespace Practica4.Controllers
             db.Dispose();
             base.Dispose(disposing);
         }
-	}
+    }
 }

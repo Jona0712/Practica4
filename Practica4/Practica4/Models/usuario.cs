@@ -42,7 +42,7 @@ namespace Practica4.Models
         public string pass { get; set; }
 
         public Nullable<int> rol { get; set; }
-    
+
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<cuenta> cuenta { get; set; }
         public virtual rol rol1 { get; set; }

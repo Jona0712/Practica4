@@ -5,11 +5,11 @@ using System.Net;
 using System.Web.Mvc;
 namespace Practica4.Controllers
 {
-    public class CuentaController:Controller
-	{
-	   private banco_practica_4Entities db = new banco_practica_4Entities();
-	   
-	     //
+    public class CuentaController : Controller
+    {
+        private banco_practica_4Entities db = new banco_practica_4Entities();
+
+        //
         // GET: /cuenta/
 
         public ActionResult Index()
@@ -120,5 +120,5 @@ namespace Practica4.Controllers
             db.Dispose();
             base.Dispose(disposing);
         }
-	}
+    }
 }

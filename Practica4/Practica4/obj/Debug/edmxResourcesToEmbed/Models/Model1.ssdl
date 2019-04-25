@@ -27,6 +27,17 @@
     <Property Name="Descripcion" Type="varchar" MaxLength="50" />
     <Property Name="cuenta" Type="int" />
   </EntityType>
+  <EntityType Name="movimiento">
+    <Key>
+      <PropertyRef Name="codigo" />
+    </Key>
+    <Property Name="codigo" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Monto" Type="float" />
+    <Property Name="mov" Type="char" MaxLength="1" />
+    <Property Name="fecha" Type="date" />
+    <Property Name="cuentaUno" Type="int" />
+    <Property Name="cuentaDos" Type="int" />
+  </EntityType>
   <EntityType Name="rol">
     <Key>
       <PropertyRef Name="id" />
@@ -82,6 +93,30 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
+  <Association Name="movimiento_ibfk_1">
+    <End Role="cuenta" Type="Self.cuenta" Multiplicity="0..1" />
+    <End Role="movimiento" Type="Self.movimiento" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="cuenta">
+        <PropertyRef Name="Numero" />
+      </Principal>
+      <Dependent Role="movimiento">
+        <PropertyRef Name="cuentaUno" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="movimiento_ibfk_2">
+    <End Role="cuenta" Type="Self.cuenta" Multiplicity="0..1" />
+    <End Role="movimiento" Type="Self.movimiento" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="cuenta">
+        <PropertyRef Name="Numero" />
+      </Principal>
+      <Dependent Role="movimiento">
+        <PropertyRef Name="cuentaDos" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
   <Association Name="usuario_ibfk_1">
     <End Role="rol" Type="Self.rol" Multiplicity="0..1" />
     <End Role="usuario" Type="Self.usuario" Multiplicity="*" />
@@ -98,6 +133,7 @@
     <EntitySet Name="credito" EntityType="Self.credito" Schema="banco_practica_4" store:Type="Tables" />
     <EntitySet Name="cuenta" EntityType="Self.cuenta" Schema="banco_practica_4" store:Type="Tables" />
     <EntitySet Name="debito" EntityType="Self.debito" Schema="banco_practica_4" store:Type="Tables" />
+    <EntitySet Name="movimiento" EntityType="Self.movimiento" Schema="banco_practica_4" store:Type="Tables" />
     <EntitySet Name="rol" EntityType="Self.rol" Schema="banco_practica_4" store:Type="Tables" />
     <EntitySet Name="usuario" EntityType="Self.usuario" Schema="banco_practica_4" store:Type="Tables" />
     <AssociationSet Name="credito_ibfk_1" Association="Self.credito_ibfk_1">
@@ -111,6 +147,14 @@
     <AssociationSet Name="debito_ibfk_1" Association="Self.debito_ibfk_1">
       <End Role="cuenta" EntitySet="cuenta" />
       <End Role="debito" EntitySet="debito" />
+    </AssociationSet>
+    <AssociationSet Name="movimiento_ibfk_1" Association="Self.movimiento_ibfk_1">
+      <End Role="cuenta" EntitySet="cuenta" />
+      <End Role="movimiento" EntitySet="movimiento" />
+    </AssociationSet>
+    <AssociationSet Name="movimiento_ibfk_2" Association="Self.movimiento_ibfk_2">
+      <End Role="cuenta" EntitySet="cuenta" />
+      <End Role="movimiento" EntitySet="movimiento" />
     </AssociationSet>
     <AssociationSet Name="usuario_ibfk_1" Association="Self.usuario_ibfk_1">
       <End Role="rol" EntitySet="rol" />

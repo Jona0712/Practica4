@@ -19,6 +19,8 @@ namespace Practica4.Models
         {
             this.credito = new HashSet<credito>();
             this.debito = new HashSet<debito>();
+            this.movimiento = new HashSet<movimiento>();
+            this.movimiento1 = new HashSet<movimiento>();
         }
     
         public int Numero { get; set; }
@@ -30,5 +32,9 @@ namespace Practica4.Models
         public virtual usuario usuario { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<debito> debito { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<movimiento> movimiento { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<movimiento> movimiento1 { get; set; }
     }
 }

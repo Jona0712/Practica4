@@ -1,15 +1,16 @@
 using Practica4.Models;
+using System;
 using System.Data.Entity;
 using System.Linq;
 using System.Net;
 using System.Web.Mvc;
 namespace Practica4.Controllers
 {
-    public class DebitoController:Controller
-	{
-	   private banco_practica_4Entities db = new banco_practica_4Entities();
-	   
-	     //
+    public class DebitoController : Controller
+    {
+        private banco_practica_4Entities db = new banco_practica_4Entities();
+
+        //
         // GET: /debito/
 
         public ActionResult Index()
@@ -77,6 +78,17 @@ namespace Practica4.Controllers
                 db.debito.Add(debito);
                 db.Entry(cuentica).State = EntityState.Modified;
                 db.SaveChanges();
+
+                MovimientoController mc = new MovimientoController();
+                movimiento movi = new movimiento();
+                movi.Monto = debito.Monto;
+                movi.mov = "D";
+                movi.fecha = DateTime.Now;
+                movi.cuentaUno = cuentica.Numero;
+                movi.cuentaDos = null;
+
+                mc.Create(movi);
+
                 return RedirectToAction("AdminInd", "Usuario");
             }
 
@@ -145,5 +157,5 @@ namespace Practica4.Controllers
             db.Dispose();
             base.Dispose(disposing);
         }
-	}
+    }
 }

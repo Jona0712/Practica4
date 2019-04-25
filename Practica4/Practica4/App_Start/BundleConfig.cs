@@ -25,7 +25,7 @@ namespace Practica4
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
-                      "~/Content/sb-admin-2.min.css"));
+                      "~/Content/site.css"));
         }
     }
 }

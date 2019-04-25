@@ -1,52 +1,52 @@
-C:\Users\rafael\Desktop\Practica4\Practica4\bin\roslyn\csc.exe
-C:\Users\rafael\Desktop\Practica4\Practica4\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\Users\rafael\Desktop\Practica4\Practica4\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\rafael\Desktop\Practica4\Practica4\bin\roslyn\Microsoft.CodeAnalysis.dll
-C:\Users\rafael\Desktop\Practica4\Practica4\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Users\rafael\Desktop\Practica4\Practica4\bin\roslyn\Microsoft.CSharp.Core.targets
-C:\Users\rafael\Desktop\Practica4\Practica4\bin\roslyn\Microsoft.VisualBasic.Core.targets
-C:\Users\rafael\Desktop\Practica4\Practica4\bin\roslyn\System.Collections.Immutable.dll
-C:\Users\rafael\Desktop\Practica4\Practica4\bin\roslyn\System.Reflection.Metadata.dll
-C:\Users\rafael\Desktop\Practica4\Practica4\bin\roslyn\vbc.exe
-C:\Users\rafael\Desktop\Practica4\Practica4\bin\roslyn\VBCSCompiler.exe
-C:\Users\rafael\Desktop\Practica4\Practica4\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\rafael\Desktop\Practica4\Practica4\bin\Practica4.dll.config
-C:\Users\rafael\Desktop\Practica4\Practica4\bin\Practica4.dll
-C:\Users\rafael\Desktop\Practica4\Practica4\bin\Practica4.pdb
-C:\Users\rafael\Desktop\Practica4\Practica4\bin\Antlr3.Runtime.dll
-C:\Users\rafael\Desktop\Practica4\Practica4\bin\EntityFramework.dll
-C:\Users\rafael\Desktop\Practica4\Practica4\bin\EntityFramework.SqlServer.dll
-C:\Users\rafael\Desktop\Practica4\Practica4\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\rafael\Desktop\Practica4\Practica4\bin\Microsoft.Web.Infrastructure.dll
-C:\Users\rafael\Desktop\Practica4\Practica4\bin\MySql.Data.dll
-C:\Users\rafael\Desktop\Practica4\Practica4\bin\MySql.Data.EntityFramework.dll
-C:\Users\rafael\Desktop\Practica4\Practica4\bin\Newtonsoft.Json.dll
-C:\Users\rafael\Desktop\Practica4\Practica4\bin\System.Web.Helpers.dll
-C:\Users\rafael\Desktop\Practica4\Practica4\bin\System.Web.Mvc.dll
-C:\Users\rafael\Desktop\Practica4\Practica4\bin\System.Web.Optimization.dll
-C:\Users\rafael\Desktop\Practica4\Practica4\bin\System.Web.Razor.dll
-C:\Users\rafael\Desktop\Practica4\Practica4\bin\System.Web.WebPages.Deployment.dll
-C:\Users\rafael\Desktop\Practica4\Practica4\bin\System.Web.WebPages.dll
-C:\Users\rafael\Desktop\Practica4\Practica4\bin\System.Web.WebPages.Razor.dll
-C:\Users\rafael\Desktop\Practica4\Practica4\bin\WebGrease.dll
-C:\Users\rafael\Desktop\Practica4\Practica4\bin\Google.Protobuf.dll
-C:\Users\rafael\Desktop\Practica4\Practica4\bin\EntityFramework.xml
-C:\Users\rafael\Desktop\Practica4\Practica4\bin\EntityFramework.SqlServer.xml
-C:\Users\rafael\Desktop\Practica4\Practica4\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\rafael\Desktop\Practica4\Practica4\bin\MySql.Data.xml
-C:\Users\rafael\Desktop\Practica4\Practica4\bin\MySql.Data.EntityFramework.xml
-C:\Users\rafael\Desktop\Practica4\Practica4\bin\System.Web.Helpers.xml
-C:\Users\rafael\Desktop\Practica4\Practica4\bin\System.Web.Mvc.xml
-C:\Users\rafael\Desktop\Practica4\Practica4\bin\System.Web.Optimization.xml
-C:\Users\rafael\Desktop\Practica4\Practica4\bin\System.Web.Razor.xml
-C:\Users\rafael\Desktop\Practica4\Practica4\bin\System.Web.WebPages.xml
-C:\Users\rafael\Desktop\Practica4\Practica4\bin\System.Web.WebPages.Deployment.xml
-C:\Users\rafael\Desktop\Practica4\Practica4\bin\System.Web.WebPages.Razor.xml
-C:\Users\rafael\Desktop\Practica4\Practica4\bin\Antlr3.Runtime.pdb
-C:\Users\rafael\Desktop\Practica4\Practica4\bin\Newtonsoft.Json.xml
-C:\Users\rafael\Desktop\Practica4\Practica4\obj\Debug\Practica4.csprojResolveAssemblyReference.cache
-C:\Users\rafael\Desktop\Practica4\Practica4\obj\Debug\Practica4.dll
-C:\Users\rafael\Desktop\Practica4\Practica4\obj\Debug\Practica4.pdb
+c:\users\rafael\documents\visual studio 2015\Projects\Practica4\Practica4\bin\roslyn\csc.exe
+c:\users\rafael\documents\visual studio 2015\Projects\Practica4\Practica4\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\rafael\documents\visual studio 2015\Projects\Practica4\Practica4\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\rafael\documents\visual studio 2015\Projects\Practica4\Practica4\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\rafael\documents\visual studio 2015\Projects\Practica4\Practica4\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\rafael\documents\visual studio 2015\Projects\Practica4\Practica4\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\rafael\documents\visual studio 2015\Projects\Practica4\Practica4\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\rafael\documents\visual studio 2015\Projects\Practica4\Practica4\bin\roslyn\System.Collections.Immutable.dll
+c:\users\rafael\documents\visual studio 2015\Projects\Practica4\Practica4\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\rafael\documents\visual studio 2015\Projects\Practica4\Practica4\bin\roslyn\vbc.exe
+c:\users\rafael\documents\visual studio 2015\Projects\Practica4\Practica4\bin\roslyn\VBCSCompiler.exe
+c:\users\rafael\documents\visual studio 2015\Projects\Practica4\Practica4\bin\roslyn\VBCSCompiler.exe.config
+c:\users\rafael\documents\visual studio 2015\Projects\Practica4\Practica4\bin\Practica4.dll.config
+c:\users\rafael\documents\visual studio 2015\Projects\Practica4\Practica4\bin\Practica4.dll
+c:\users\rafael\documents\visual studio 2015\Projects\Practica4\Practica4\bin\Practica4.pdb
+c:\users\rafael\documents\visual studio 2015\Projects\Practica4\Practica4\bin\Antlr3.Runtime.dll
+c:\users\rafael\documents\visual studio 2015\Projects\Practica4\Practica4\bin\EntityFramework.dll
+c:\users\rafael\documents\visual studio 2015\Projects\Practica4\Practica4\bin\EntityFramework.SqlServer.dll
+c:\users\rafael\documents\visual studio 2015\Projects\Practica4\Practica4\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\rafael\documents\visual studio 2015\Projects\Practica4\Practica4\bin\Microsoft.Web.Infrastructure.dll
+c:\users\rafael\documents\visual studio 2015\Projects\Practica4\Practica4\bin\MySql.Data.dll
+c:\users\rafael\documents\visual studio 2015\Projects\Practica4\Practica4\bin\MySql.Data.EntityFramework.dll
+c:\users\rafael\documents\visual studio 2015\Projects\Practica4\Practica4\bin\Newtonsoft.Json.dll
+c:\users\rafael\documents\visual studio 2015\Projects\Practica4\Practica4\bin\System.Web.Helpers.dll
+c:\users\rafael\documents\visual studio 2015\Projects\Practica4\Practica4\bin\System.Web.Mvc.dll
+c:\users\rafael\documents\visual studio 2015\Projects\Practica4\Practica4\bin\System.Web.Optimization.dll
+c:\users\rafael\documents\visual studio 2015\Projects\Practica4\Practica4\bin\System.Web.Razor.dll
+c:\users\rafael\documents\visual studio 2015\Projects\Practica4\Practica4\bin\System.Web.WebPages.Deployment.dll
+c:\users\rafael\documents\visual studio 2015\Projects\Practica4\Practica4\bin\System.Web.WebPages.dll
+c:\users\rafael\documents\visual studio 2015\Projects\Practica4\Practica4\bin\System.Web.WebPages.Razor.dll
+c:\users\rafael\documents\visual studio 2015\Projects\Practica4\Practica4\bin\WebGrease.dll
+c:\users\rafael\documents\visual studio 2015\Projects\Practica4\Practica4\bin\Google.Protobuf.dll
+c:\users\rafael\documents\visual studio 2015\Projects\Practica4\Practica4\bin\EntityFramework.xml
+c:\users\rafael\documents\visual studio 2015\Projects\Practica4\Practica4\bin\EntityFramework.SqlServer.xml
+c:\users\rafael\documents\visual studio 2015\Projects\Practica4\Practica4\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\rafael\documents\visual studio 2015\Projects\Practica4\Practica4\bin\MySql.Data.xml
+c:\users\rafael\documents\visual studio 2015\Projects\Practica4\Practica4\bin\MySql.Data.EntityFramework.xml
+c:\users\rafael\documents\visual studio 2015\Projects\Practica4\Practica4\bin\System.Web.Helpers.xml
+c:\users\rafael\documents\visual studio 2015\Projects\Practica4\Practica4\bin\System.Web.Mvc.xml
+c:\users\rafael\documents\visual studio 2015\Projects\Practica4\Practica4\bin\System.Web.Optimization.xml
+c:\users\rafael\documents\visual studio 2015\Projects\Practica4\Practica4\bin\System.Web.Razor.xml
+c:\users\rafael\documents\visual studio 2015\Projects\Practica4\Practica4\bin\System.Web.WebPages.xml
+c:\users\rafael\documents\visual studio 2015\Projects\Practica4\Practica4\bin\System.Web.WebPages.Deployment.xml
+c:\users\rafael\documents\visual studio 2015\Projects\Practica4\Practica4\bin\System.Web.WebPages.Razor.xml
+c:\users\rafael\documents\visual studio 2015\Projects\Practica4\Practica4\bin\Antlr3.Runtime.pdb
+c:\users\rafael\documents\visual studio 2015\Projects\Practica4\Practica4\bin\Newtonsoft.Json.xml
+c:\users\rafael\documents\visual studio 2015\Projects\Practica4\Practica4\obj\Debug\Practica4.csprojResolveAssemblyReference.cache
+c:\users\rafael\documents\visual studio 2015\Projects\Practica4\Practica4\obj\Debug\Practica4.dll
+c:\users\rafael\documents\visual studio 2015\Projects\Practica4\Practica4\obj\Debug\Practica4.pdb
 D:\rafae\Documents\USAC\Analisis y Diseño 1\Practica4\Practica4\Practica4\Practica4\obj\Debug\Practica4.csprojAssemblyReference.cache
 D:\rafae\Documents\USAC\Analisis y Diseño 1\Practica4\Practica4\Practica4\Practica4\obj\Debug\Practica4.csproj.CoreCompileInputs.cache
 D:\rafae\Documents\USAC\Analisis y Diseño 1\Practica4\Practica4\Practica4\Practica4\obj\Debug\Practica4.dll
@@ -66,6 +66,20 @@ D:\rafae\Documents\USAC\Analisis y Diseño 1\Practica4\Practica4\Practica4\Pract
 D:\rafae\Documents\USAC\Analisis y Diseño 1\Practica4\Practica4\Practica4\Practica4\bin\Practica4.dll.config
 D:\rafae\Documents\USAC\Analisis y Diseño 1\Practica4\Practica4\Practica4\Practica4\bin\Practica4.dll
 D:\rafae\Documents\USAC\Analisis y Diseño 1\Practica4\Practica4\Practica4\Practica4\bin\Practica4.pdb
+D:\rafae\Documents\USAC\Analisis y Diseño 1\Practica4\Practica4\Practica4\Practica4\bin\Antlr3.Runtime.dll
+D:\rafae\Documents\USAC\Analisis y Diseño 1\Practica4\Practica4\Practica4\Practica4\bin\EntityFramework.dll
+D:\rafae\Documents\USAC\Analisis y Diseño 1\Practica4\Practica4\Practica4\Practica4\bin\EntityFramework.SqlServer.dll
+D:\rafae\Documents\USAC\Analisis y Diseño 1\Practica4\Practica4\Practica4\Practica4\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\rafae\Documents\USAC\Analisis y Diseño 1\Practica4\Practica4\Practica4\Practica4\bin\Microsoft.Web.Infrastructure.dll
+D:\rafae\Documents\USAC\Analisis y Diseño 1\Practica4\Practica4\Practica4\Practica4\bin\Newtonsoft.Json.dll
+D:\rafae\Documents\USAC\Analisis y Diseño 1\Practica4\Practica4\Practica4\Practica4\bin\System.Web.Helpers.dll
+D:\rafae\Documents\USAC\Analisis y Diseño 1\Practica4\Practica4\Practica4\Practica4\bin\System.Web.Mvc.dll
+D:\rafae\Documents\USAC\Analisis y Diseño 1\Practica4\Practica4\Practica4\Practica4\bin\System.Web.Optimization.dll
+D:\rafae\Documents\USAC\Analisis y Diseño 1\Practica4\Practica4\Practica4\Practica4\bin\System.Web.Razor.dll
+D:\rafae\Documents\USAC\Analisis y Diseño 1\Practica4\Practica4\Practica4\Practica4\bin\System.Web.WebPages.Deployment.dll
+D:\rafae\Documents\USAC\Analisis y Diseño 1\Practica4\Practica4\Practica4\Practica4\bin\System.Web.WebPages.dll
+D:\rafae\Documents\USAC\Analisis y Diseño 1\Practica4\Practica4\Practica4\Practica4\bin\System.Web.WebPages.Razor.dll
+D:\rafae\Documents\USAC\Analisis y Diseño 1\Practica4\Practica4\Practica4\Practica4\bin\WebGrease.dll
 D:\rafae\Documents\USAC\Analisis y Diseño 1\Practica4\Practica4\Practica4\Practica4\bin\Google.Protobuf.dll
 D:\rafae\Documents\USAC\Analisis y Diseño 1\Practica4\Practica4\Practica4\Practica4\bin\EntityFramework.xml
 D:\rafae\Documents\USAC\Analisis y Diseño 1\Practica4\Practica4\Practica4\Practica4\bin\EntityFramework.SqlServer.xml

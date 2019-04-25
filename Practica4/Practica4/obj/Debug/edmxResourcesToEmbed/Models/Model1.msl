@@ -31,6 +31,18 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
+    <EntitySetMapping Name="movimiento">
+      <EntityTypeMapping TypeName="banco_practica_4Model.movimiento">
+        <MappingFragment StoreEntitySet="movimiento">
+          <ScalarProperty Name="codigo" ColumnName="codigo" />
+          <ScalarProperty Name="Monto" ColumnName="Monto" />
+          <ScalarProperty Name="mov" ColumnName="mov" />
+          <ScalarProperty Name="fecha" ColumnName="fecha" />
+          <ScalarProperty Name="cuentaUno" ColumnName="cuentaUno" />
+          <ScalarProperty Name="cuentaDos" ColumnName="cuentaDos" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
     <EntitySetMapping Name="rol">
       <EntityTypeMapping TypeName="banco_practica_4Model.rol">
         <MappingFragment StoreEntitySet="rol">
