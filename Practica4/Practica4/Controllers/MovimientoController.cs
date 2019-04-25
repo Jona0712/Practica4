@@ -4,16 +4,23 @@ using Practica4.Models;
 
 namespace Practica4.Controllers
 {
-    public class MovimientoController:Controller
-	{
-	   private banco_practica_4Entities db = new banco_practica_4Entities();
-	   
-	     //
+    public class MovimientoController : Controller
+    {
+        private banco_practica_4Entities db = new banco_practica_4Entities();
+
+        //
         // GET: /movimiento/
 
         public ActionResult Index()
         {
-            return View(db.movimiento.ToList());
+            if (Session["codigo"] != null)
+            {
+                var usuario = db.usuario.Find(Session["codigo"]);
+                var cuenta = db.cuenta.Where(a => a.usua == usuario.codigo).First();
+                var movimientos = db.movimiento.Where(i => i.cuentaUno == cuenta.Numero).ToList();
+                return View(movimientos);
+            }
+            return RedirectToAction("Login", "Usuario");
         }
 
         // POST: 
@@ -37,5 +44,5 @@ namespace Practica4.Controllers
             db.Dispose();
             base.Dispose(disposing);
         }
-	}
+    }
 }

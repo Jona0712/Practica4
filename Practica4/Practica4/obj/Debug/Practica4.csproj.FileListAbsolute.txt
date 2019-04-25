@@ -47,10 +47,6 @@ c:\users\rafael\documents\visual studio 2015\Projects\Practica4\Practica4\bin\Ne
 c:\users\rafael\documents\visual studio 2015\Projects\Practica4\Practica4\obj\Debug\Practica4.csprojResolveAssemblyReference.cache
 c:\users\rafael\documents\visual studio 2015\Projects\Practica4\Practica4\obj\Debug\Practica4.dll
 c:\users\rafael\documents\visual studio 2015\Projects\Practica4\Practica4\obj\Debug\Practica4.pdb
-D:\rafae\Documents\USAC\Analisis y Diseño 1\Practica4\Practica4\Practica4\Practica4\obj\Debug\Practica4.csprojAssemblyReference.cache
-D:\rafae\Documents\USAC\Analisis y Diseño 1\Practica4\Practica4\Practica4\Practica4\obj\Debug\Practica4.csproj.CoreCompileInputs.cache
-D:\rafae\Documents\USAC\Analisis y Diseño 1\Practica4\Practica4\Practica4\Practica4\obj\Debug\Practica4.dll
-D:\rafae\Documents\USAC\Analisis y Diseño 1\Practica4\Practica4\Practica4\Practica4\obj\Debug\Practica4.pdb
 D:\rafae\Documents\USAC\Analisis y Diseño 1\Practica4\Practica4\Practica4\Practica4\bin\roslyn\csc.exe
 D:\rafae\Documents\USAC\Analisis y Diseño 1\Practica4\Practica4\Practica4\Practica4\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
 D:\rafae\Documents\USAC\Analisis y Diseño 1\Practica4\Practica4\Practica4\Practica4\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
@@ -84,8 +80,6 @@ D:\rafae\Documents\USAC\Analisis y Diseño 1\Practica4\Practica4\Practica4\Pract
 D:\rafae\Documents\USAC\Analisis y Diseño 1\Practica4\Practica4\Practica4\Practica4\bin\EntityFramework.xml
 D:\rafae\Documents\USAC\Analisis y Diseño 1\Practica4\Practica4\Practica4\Practica4\bin\EntityFramework.SqlServer.xml
 D:\rafae\Documents\USAC\Analisis y Diseño 1\Practica4\Practica4\Practica4\Practica4\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\rafae\Documents\USAC\Analisis y Diseño 1\Practica4\Practica4\Practica4\Practica4\bin\MySql.Data.xml
-D:\rafae\Documents\USAC\Analisis y Diseño 1\Practica4\Practica4\Practica4\Practica4\bin\MySql.Data.EntityFramework.xml
 D:\rafae\Documents\USAC\Analisis y Diseño 1\Practica4\Practica4\Practica4\Practica4\bin\System.Web.Helpers.xml
 D:\rafae\Documents\USAC\Analisis y Diseño 1\Practica4\Practica4\Practica4\Practica4\bin\System.Web.Mvc.xml
 D:\rafae\Documents\USAC\Analisis y Diseño 1\Practica4\Practica4\Practica4\Practica4\bin\System.Web.Optimization.xml
@@ -95,4 +89,8 @@ D:\rafae\Documents\USAC\Analisis y Diseño 1\Practica4\Practica4\Practica4\Pract
 D:\rafae\Documents\USAC\Analisis y Diseño 1\Practica4\Practica4\Practica4\Practica4\bin\System.Web.WebPages.Razor.xml
 D:\rafae\Documents\USAC\Analisis y Diseño 1\Practica4\Practica4\Practica4\Practica4\bin\Antlr3.Runtime.pdb
 D:\rafae\Documents\USAC\Analisis y Diseño 1\Practica4\Practica4\Practica4\Practica4\bin\Newtonsoft.Json.xml
+D:\rafae\Documents\USAC\Analisis y Diseño 1\Practica4\Practica4\Practica4\Practica4\obj\Debug\Practica4.csprojAssemblyReference.cache
+D:\rafae\Documents\USAC\Analisis y Diseño 1\Practica4\Practica4\Practica4\Practica4\obj\Debug\Practica4.csproj.CoreCompileInputs.cache
 D:\rafae\Documents\USAC\Analisis y Diseño 1\Practica4\Practica4\Practica4\Practica4\obj\Debug\Practica4.csproj.CopyComplete
+D:\rafae\Documents\USAC\Analisis y Diseño 1\Practica4\Practica4\Practica4\Practica4\obj\Debug\Practica4.dll
+D:\rafae\Documents\USAC\Analisis y Diseño 1\Practica4\Practica4\Practica4\Practica4\obj\Debug\Practica4.pdb

@@ -209,6 +209,11 @@ namespace Practica4.Controllers
             return View();
         }
 
+        public void assignaCodigo(int codigo)
+        {
+            Session["codigo"] = codigo;
+        }
+
         public ActionResult Logout()
         {
             Session["codigo"] = null;
@@ -239,8 +244,9 @@ namespace Practica4.Controllers
                 MovimientoController mcc = new MovimientoController();
                 movimiento movi = new movimiento();
 
-                if (cuenCon.Create(cuenti)) { 
-                    
+                if (cuenCon.Create(cuenti))
+                {
+
                     movi.Monto = 1000;
                     movi.mov = "I";
                     movi.fecha = DateTime.Now;
