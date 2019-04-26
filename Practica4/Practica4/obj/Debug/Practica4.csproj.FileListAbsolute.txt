@@ -89,7 +89,6 @@ D:\rafae\Documents\USAC\Analisis y Diseño 1\Practica4\Practica4\Practica4\Pract
 D:\rafae\Documents\USAC\Analisis y Diseño 1\Practica4\Practica4\Practica4\Practica4\bin\System.Web.WebPages.Razor.xml
 D:\rafae\Documents\USAC\Analisis y Diseño 1\Practica4\Practica4\Practica4\Practica4\bin\Antlr3.Runtime.pdb
 D:\rafae\Documents\USAC\Analisis y Diseño 1\Practica4\Practica4\Practica4\Practica4\bin\Newtonsoft.Json.xml
-D:\rafae\Documents\USAC\Analisis y Diseño 1\Practica4\Practica4\Practica4\Practica4\obj\Debug\Practica4.csprojAssemblyReference.cache
 D:\rafae\Documents\USAC\Analisis y Diseño 1\Practica4\Practica4\Practica4\Practica4\obj\Debug\Practica4.csproj.CoreCompileInputs.cache
 D:\rafae\Documents\USAC\Analisis y Diseño 1\Practica4\Practica4\Practica4\Practica4\obj\Debug\Practica4.csproj.CopyComplete
 D:\rafae\Documents\USAC\Analisis y Diseño 1\Practica4\Practica4\Practica4\Practica4\obj\Debug\Practica4.dll
