@@ -9,7 +9,7 @@ namespace Practica4.Controllers
 {
     public class CreditoController : Controller
     {
-        string a
+        string a;
         private banco_practica_4Entities db = new banco_practica_4Entities();
 
         //
