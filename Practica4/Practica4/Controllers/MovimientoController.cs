@@ -15,10 +15,10 @@ namespace Practica4.Controllers
         {
             if (Session["codigo"] != null)
             {
-                var usuario = db.usuario.Find(Session["codigo"]);
-                var cuenta = db.cuenta.Where(a => a.usua == usuario.codigo).First();
-                var movimientos = db.movimiento.Where(i => i.cuentaUno == cuenta.Numero).ToList();
-                return View(movimientos);
+                var usuario = db.usuario.Find(Session["codigo"])
+                var cuenta = db.cuenta.Where(a => a.usua == usuario.codigo).First()
+                var movimientos = db.movimiento.Where(i => i.cuentaUno == cuenta.Numero).ToList()
+                return View(movimientos)
             }
             return RedirectToAction("Login", "Usuario");
         }
